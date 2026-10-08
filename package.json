@@ -1,0 +1,16 @@
+{
+  "name": "saraha-backend",
+  "version": "1.0.0",
+  "description": "Simple Saraha-like anonymous messaging backend (Express + MongoDB + Mongoose)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "argon2": "^0.45.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  }
+}
